@@ -1,0 +1,8 @@
+name: hehehaha
+run-name: ${{ github.actor }} is ha heng
+on: [push]
+jobs:
+  ha-heng:
+    runs-on: ubuntu-20.04
+    steps:
+    - run: echo "haheng"
